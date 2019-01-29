@@ -1,13 +1,13 @@
 {
-  "main.css": "/Sanjai1112/ToDo-List/static/css/main.450d6a5a.chunk.css",
-  "main.js": "/Sanjai1112/ToDo-List/static/js/main.8dd34330.chunk.js",
-  "main.js.map": "/Sanjai1112/ToDo-List/static/js/main.8dd34330.chunk.js.map",
-  "static/js/1.f739feb7.chunk.js": "/Sanjai1112/ToDo-List/static/js/1.f739feb7.chunk.js",
-  "static/js/1.f739feb7.chunk.js.map": "/Sanjai1112/ToDo-List/static/js/1.f739feb7.chunk.js.map",
-  "runtime~main.js": "/Sanjai1112/ToDo-List/static/js/runtime~main.1ee18833.js",
-  "runtime~main.js.map": "/Sanjai1112/ToDo-List/static/js/runtime~main.1ee18833.js.map",
-  "static/css/main.450d6a5a.chunk.css.map": "/Sanjai1112/ToDo-List/static/css/main.450d6a5a.chunk.css.map",
-  "index.html": "/Sanjai1112/ToDo-List/index.html",
-  "precache-manifest.e21efeb5237158d182a475811e64b3ac.js": "/Sanjai1112/ToDo-List/precache-manifest.e21efeb5237158d182a475811e64b3ac.js",
-  "service-worker.js": "/Sanjai1112/ToDo-List/service-worker.js"
+  "main.css": "/ToDo-List/static/css/main.450d6a5a.chunk.css",
+  "main.js": "/ToDo-List/static/js/main.a47ea719.chunk.js",
+  "main.js.map": "/ToDo-List/static/js/main.a47ea719.chunk.js.map",
+  "static/js/1.f739feb7.chunk.js": "/ToDo-List/static/js/1.f739feb7.chunk.js",
+  "static/js/1.f739feb7.chunk.js.map": "/ToDo-List/static/js/1.f739feb7.chunk.js.map",
+  "runtime~main.js": "/ToDo-List/static/js/runtime~main.794dcdc1.js",
+  "runtime~main.js.map": "/ToDo-List/static/js/runtime~main.794dcdc1.js.map",
+  "static/css/main.450d6a5a.chunk.css.map": "/ToDo-List/static/css/main.450d6a5a.chunk.css.map",
+  "index.html": "/ToDo-List/index.html",
+  "precache-manifest.2c8528ff8d632a570ea3cc53c5c3d4bd.js": "/ToDo-List/precache-manifest.2c8528ff8d632a570ea3cc53c5c3d4bd.js",
+  "service-worker.js": "/ToDo-List/service-worker.js"
 }
