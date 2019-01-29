@@ -1,32 +1,42 @@
-.App {
-  text-align: center;
+.container-fluid {
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  padding: 12px;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 300;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.add-todo {
+  float: left;
+  padding: 4px;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+}
+.btn.btn-primary {
+  border: 1px solid blue;
+  padding: 4px;
+  width: 10%;
+  background: blue;
   color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  outline: none;
 }
-
-.App-link {
-  color: #61dafb;
+.btn.btn-danger {
+  float: right;
+  background: #ff0000a1;
+  cursor: pointer;
+  border: none;
+  width: 12%;
+  padding: 6px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h4 {
+  font-weight: 400;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.2);
+  padding: 12px;
+  border-radius: 4px;
+  width: 50%;
 }
