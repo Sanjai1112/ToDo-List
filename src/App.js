@@ -12,6 +12,17 @@ class App extends Component {
   handleChange = e => {
     this.setState({ input: e.target.value });
   };
+  // handleKeyPress = e => {
+  //   console.log(e.target.value);
+  //   // this.setState({input:e.target.value})
+  // };
+  keyDown = e => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      e.stopPropagation();
+      this.handleClick();
+    }
+  };
   handleClick = () => {
     // console.log(this.state.input);
     if (this.state.input.length !== 0) {
@@ -30,6 +41,9 @@ class App extends Component {
     });
     this.setState({ name: newName });
   };
+  componentDidMount() {
+    this.refs.list.focus();
+  }
   render() {
     return (
       <div className="container-fluid">
@@ -39,6 +53,9 @@ class App extends Component {
           type="text"
           placeholder="Enter the todo to add"
           onChange={this.handleChange}
+          ref="list"
+          // onKeyPress={this.handleKeyPress}
+          onKeyDown={this.keyDown}
         />
         <button className="btn btn-primary" onClick={this.handleClick}>
           Add
